@@ -241,8 +241,8 @@ if flag:
 # #######################  example 8  #######################
 # torch.stack
 
-flag = True
-# flag = False
+# flag = True
+flag = False
 
 if flag:
     a = torch.rand((1, 2, 3, 1))
