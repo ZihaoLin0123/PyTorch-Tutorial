@@ -22,12 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fefd75aa-1172-434a-9d3e-1ef97dce84bc" name="Default" comment="create lenet.py, common_tools.py, update 01_hello_pytorch.py, 03_transforms_1.py">
-      <change afterPath="$PROJECT_DIR$/code/Lesson02/04_transforms_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Lesson02/05_user_defined_transform.py" afterDir="false" />
+    <list default="true" id="fefd75aa-1172-434a-9d3e-1ef97dce84bc" name="Default" comment="create 04_transforms_2.py, 05_user_defined_transform.py, modify 03_transforms_1.py, my_dataset.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Lesson02/03_transforms_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Lesson02/03_transforms_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/my_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/my_dataset.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +229,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603573155031</updated>
       <workItem from="1603926885385" duration="7198000" />
-      <workItem from="1604022260326" duration="10210000" />
+      <workItem from="1604022260326" duration="10423000" />
     </task>
     <task id="LOCAL-00001" summary="create lenet.py, common_tools.py, update 01_hello_pytorch.py, 03_transforms_1.py">
       <created>1604022552908</created>
@@ -242,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604022552908</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create 04_transforms_2.py, 05_user_defined_transform.py, modify 03_transforms_1.py, my_dataset.py">
+      <created>1604033260573</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604033260573</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +265,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create lenet.py, common_tools.py, update 01_hello_pytorch.py, 03_transforms_1.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="create lenet.py, common_tools.py, update 01_hello_pytorch.py, 03_transforms_1.py" />
+    <MESSAGE value="create 04_transforms_2.py, 05_user_defined_transform.py, modify 03_transforms_1.py, my_dataset.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="create 04_transforms_2.py, 05_user_defined_transform.py, modify 03_transforms_1.py, my_dataset.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="190" width="1071" height="837" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604023605666">
@@ -278,22 +282,22 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="684" y="322" key="FileChooserDialogImpl/0.0.1792.1120@0.0.1792.1120" timestamp="1604024207525" />
-    <state width="1750" height="321" key="GridCell.Tab.0.bottom" timestamp="1604032432630">
+    <state width="1750" height="321" key="GridCell.Tab.0.bottom" timestamp="1604080271183">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="321" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604032432630" />
-    <state width="1750" height="321" key="GridCell.Tab.0.center" timestamp="1604032432629">
+    <state width="1750" height="321" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604080271183" />
+    <state width="1750" height="321" key="GridCell.Tab.0.center" timestamp="1604080271182">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="321" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604032432629" />
-    <state width="1750" height="321" key="GridCell.Tab.0.left" timestamp="1604032432629">
+    <state width="1750" height="321" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604080271182" />
+    <state width="1750" height="321" key="GridCell.Tab.0.left" timestamp="1604080271181">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="321" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604032432629" />
-    <state width="1750" height="321" key="GridCell.Tab.0.right" timestamp="1604032432630">
+    <state width="1750" height="321" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604080271181" />
+    <state width="1750" height="321" key="GridCell.Tab.0.right" timestamp="1604080271183">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="321" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604032432630" />
+    <state width="1750" height="321" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604080271183" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1604024210540">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -302,10 +306,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="747" y="480" key="VCS.ChangelistChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1603994971609" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1604022666782">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1604033288656">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1604022666782" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1604033288656" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1604031358530">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
