@@ -40,7 +40,7 @@ class RMBDataset(Dataset):
         for root, dirs, _ in os.walk(data_dir):
             for sub_dir in dirs:
                 img_names = os.listdir(os.path.join(root, sub_dir))
-                img_names = list(filter(lambda x: x.endwith('.jpg'), img_names))
+                img_names = list(filter(lambda x: x.endswith('.jpg'), img_names))
 
                 for i in range(len(img_names)):
                     img_name = img_names[i]

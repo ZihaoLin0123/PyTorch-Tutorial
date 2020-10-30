@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,14 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fefd75aa-1172-434a-9d3e-1ef97dce84bc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/model/lenet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/common_tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PyTorch-Tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PyTorch-Tutorial.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fefd75aa-1172-434a-9d3e-1ef97dce84bc" name="Default" comment="create lenet.py, common_tools.py, update 01_hello_pytorch.py, 03_transforms_1.py">
+      <change afterPath="$PROJECT_DIR$/code/Lesson02/04_transforms_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Lesson02/05_user_defined_transform.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Lesson01/01_hello_pytorch.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Lesson01/01_hello_pytorch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Lesson02/03_transforms_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Lesson02/03_transforms_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/my_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/my_dataset.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -66,51 +70,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.03_transforms_1">
-    <configuration name="01_dataloader and dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyTorch-Tutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/Lesson02" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\33574\Desktop\classes\NLP\Projects\github-pytorch-tutorial\PyTorch-Tutorial\code\Lesson02\01_RMB_classification_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="01_hello_pytorch" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyTorch-Tutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/Lesson01" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/Lesson01/01_hello_pytorch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.05_user_defined_transform">
     <configuration name="03_transforms_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyTorch-Tutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,6 +85,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/Lesson02/03_transforms_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04_transforms_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTorch-Tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/Lesson02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/Lesson02/04_transforms_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="05_user_defined_transform" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTorch-Tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/Lesson02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/Lesson02/05_user_defined_transform.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,19 +205,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.python3.7-gpu1.6" />
-      <item itemvalue="Python.01_hello_pytorch" />
-      <item itemvalue="Python.01_dataloader and dataset" />
       <item itemvalue="Python.03_transforms_1" />
       <item itemvalue="Python.lenet" />
       <item itemvalue="Python.common_tools" />
+      <item itemvalue="Python.04_transforms_2" />
+      <item itemvalue="Python.05_user_defined_transform" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.05_user_defined_transform" />
+        <item itemvalue="Python.04_transforms_2" />
         <item itemvalue="Python.03_transforms_1" />
         <item itemvalue="Python.common_tools" />
         <item itemvalue="Python.lenet" />
-        <item itemvalue="Python.01_hello_pytorch" />
-        <item itemvalue="Python.01_dataloader and dataset" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +233,16 @@
       <option name="presentableId" value="Default" />
       <updated>1603573155031</updated>
       <workItem from="1603926885385" duration="7198000" />
+      <workItem from="1604022260326" duration="10210000" />
     </task>
+    <task id="LOCAL-00001" summary="create lenet.py, common_tools.py, update 01_hello_pytorch.py, 03_transforms_1.py">
+      <created>1604022552908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604022552908</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,50 +258,65 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create lenet.py, common_tools.py, update 01_hello_pytorch.py, 03_transforms_1.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="create lenet.py, common_tools.py, update 01_hello_pytorch.py, 03_transforms_1.py" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="190" width="1071" height="837" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604021054125">
+    <state x="360" y="190" width="1071" height="837" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604023605666">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="360" y="190" width="1071" height="837" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1604021054125" />
+    <state x="360" y="190" width="1071" height="837" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1604023605666" />
     <state x="360" y="197" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1025@0.23.1792.1025" timestamp="1603926938522" />
     <state x="750" y="346" key="EnvironmentVariablesDialog" timestamp="1604021035661">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="750" y="346" key="EnvironmentVariablesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1604021035661" />
-    <state x="684" y="322" key="FileChooserDialogImpl" timestamp="1604021275809">
+    <state x="684" y="322" key="FileChooserDialogImpl" timestamp="1604024207525">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="684" y="322" key="FileChooserDialogImpl/0.0.1792.1120@0.0.1792.1120" timestamp="1604021275809" />
-    <state width="1750" height="321" key="GridCell.Tab.0.bottom" timestamp="1604022254739">
+    <state x="684" y="322" key="FileChooserDialogImpl/0.0.1792.1120@0.0.1792.1120" timestamp="1604024207525" />
+    <state width="1750" height="321" key="GridCell.Tab.0.bottom" timestamp="1604032432630">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="321" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604022254739" />
-    <state width="1750" height="321" key="GridCell.Tab.0.center" timestamp="1604022254738">
+    <state width="1750" height="321" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604032432630" />
+    <state width="1750" height="321" key="GridCell.Tab.0.center" timestamp="1604032432629">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="321" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604022254738" />
-    <state width="1750" height="321" key="GridCell.Tab.0.left" timestamp="1604022254738">
+    <state width="1750" height="321" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604032432629" />
+    <state width="1750" height="321" key="GridCell.Tab.0.left" timestamp="1604032432629">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="321" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604022254738" />
-    <state width="1750" height="321" key="GridCell.Tab.0.right" timestamp="1604022254739">
+    <state width="1750" height="321" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604032432629" />
+    <state width="1750" height="321" key="GridCell.Tab.0.right" timestamp="1604032432630">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="321" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604022254739" />
-    <state x="397" y="199" key="SettingsEditor" timestamp="1604022245608">
+    <state width="1750" height="321" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604032432630" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1604024210540">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1604022245608" />
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1604024210540" />
     <state x="747" y="480" key="VCS.ChangelistChooser" timestamp="1603994971609">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="747" y="480" key="VCS.ChangelistChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1603994971609" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1604022666782">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1604022666782" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1604031358530">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1604031358530" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PyTorch_Tutorial$03_transforms_1.coverage" NAME="03_transforms_1 Coverage Results" MODIFIED="1604020522409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/Lesson02" />
+    <SUITE FILE_PATH="coverage/PyTorch_Tutorial$03_transforms_1.coverage" NAME="03_transforms_1 Coverage Results" MODIFIED="1604025015131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/Lesson02" />
+    <SUITE FILE_PATH="coverage/PyTorch_Tutorial$04_transforms_2.coverage" NAME="04_transforms_2 Coverage Results" MODIFIED="1604029722557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/Lesson02" />
     <SUITE FILE_PATH="coverage/PyTorch_Tutorial$lenet.coverage" NAME="lenet Coverage Results" MODIFIED="1604020481555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
     <SUITE FILE_PATH="coverage/PyTorch_Tutorial$common_tools.coverage" NAME="common_tools Coverage Results" MODIFIED="1604020509371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/PyTorch_Tutorial$05_user_defined_transform.coverage" NAME="05_user_defined_transform Coverage Results" MODIFIED="1604032432622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/Lesson02" />
     <SUITE FILE_PATH="coverage/PyTorch_Tutorial$01_hello_pytorch.coverage" NAME="01_hello_pytorch Coverage Results" MODIFIED="1603994985807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/Lesson01" />
   </component>
 </project>
