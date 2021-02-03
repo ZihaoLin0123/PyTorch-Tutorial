@@ -64,7 +64,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunManager" selected="Python.05_user_defined_transform">
     <configuration name="03_transforms_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -230,6 +230,11 @@
       <updated>1603573155031</updated>
       <workItem from="1603926885385" duration="7198000" />
       <workItem from="1604022260326" duration="10423000" />
+      <workItem from="1604081170475" duration="337000" />
+      <workItem from="1604084025348" duration="2089000" />
+      <workItem from="1604330053592" duration="53000" />
+      <workItem from="1604330439626" duration="75000" />
+      <workItem from="1604342561911" duration="690000" />
     </task>
     <task id="LOCAL-00001" summary="create lenet.py, common_tools.py, update 01_hello_pytorch.py, 03_transforms_1.py">
       <created>1604022552908</created>
@@ -269,10 +274,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="create 04_transforms_2.py, 05_user_defined_transform.py, modify 03_transforms_1.py, my_dataset.py" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="190" width="1071" height="837" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604023605666">
+    <state x="360" y="190" width="1071" height="837" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604082017230">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="360" y="190" width="1071" height="837" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1604023605666" />
+    <state x="360" y="190" width="1071" height="837" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1604082017230" />
     <state x="360" y="197" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1025@0.23.1792.1025" timestamp="1603926938522" />
     <state x="750" y="346" key="EnvironmentVariablesDialog" timestamp="1604021035661">
       <screen x="0" y="0" width="1792" height="1120" />
@@ -298,18 +303,18 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="321" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604080271183" />
-    <state x="397" y="199" key="SettingsEditor" timestamp="1604024210540">
+    <state x="397" y="199" key="SettingsEditor" timestamp="1604330096855">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1604024210540" />
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1604330096855" />
     <state x="747" y="480" key="VCS.ChangelistChooser" timestamp="1603994971609">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="747" y="480" key="VCS.ChangelistChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1603994971609" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1604033288656">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1604281326564">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1604033288656" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1604281326564" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1604031358530">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
